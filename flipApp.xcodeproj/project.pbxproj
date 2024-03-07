@@ -17,6 +17,8 @@
 		937DA8602B97294400D78806 /* flipAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DA85F2B97294400D78806 /* flipAppTests.swift */; };
 		937DA86A2B97294400D78806 /* flipAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DA8692B97294400D78806 /* flipAppUITests.swift */; };
 		937DA86C2B97294400D78806 /* flipAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DA86B2B97294400D78806 /* flipAppUITestsLaunchTests.swift */; };
+		937DA8792B99CB4D00D78806 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DA8782B99CB4D00D78806 /* Card.swift */; };
+		937DA87B2B99CB9500D78806 /* ConcetrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937DA87A2B99CB9500D78806 /* ConcetrationGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		937DA8652B97294400D78806 /* flipAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flipAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		937DA8692B97294400D78806 /* flipAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flipAppUITests.swift; sourceTree = "<group>"; };
 		937DA86B2B97294400D78806 /* flipAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flipAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		937DA8782B99CB4D00D78806 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		937DA87A2B99CB9500D78806 /* ConcetrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcetrationGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				937DA8452B97293D00D78806 /* AppDelegate.swift */,
 				937DA8472B97293D00D78806 /* SceneDelegate.swift */,
 				937DA8492B97293D00D78806 /* ViewController.swift */,
+				937DA87A2B99CB9500D78806 /* ConcetrationGame.swift */,
+				937DA8782B99CB4D00D78806 /* Card.swift */,
 				937DA84B2B97293D00D78806 /* Main.storyboard */,
 				937DA8512B97294400D78806 /* Assets.xcassets */,
 				937DA8532B97294400D78806 /* LaunchScreen.storyboard */,
@@ -263,7 +269,9 @@
 			files = (
 				937DA8502B97293D00D78806 /* flipApp.xcdatamodeld in Sources */,
 				937DA84A2B97293D00D78806 /* ViewController.swift in Sources */,
+				937DA8792B99CB4D00D78806 /* Card.swift in Sources */,
 				937DA8462B97293D00D78806 /* AppDelegate.swift in Sources */,
+				937DA87B2B99CB9500D78806 /* ConcetrationGame.swift in Sources */,
 				937DA8482B97293D00D78806 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
