@@ -13,4 +13,14 @@ struct Card {
     var isMatched = false
     var identifier: Int
     
+     static var indentifierNumber = 0
+
+    static func indentifierGenerator() -> Int {
+        indentifierNumber += 1
+        return indentifierNumber
+    }
+
+    init() {
+        self.identifier = Card.indentifierGenerator()
+    }
 }
