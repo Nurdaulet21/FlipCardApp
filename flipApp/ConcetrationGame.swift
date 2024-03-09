@@ -15,6 +15,7 @@ class ConcetrationGame {
         if !cards[index].isMatched {
             if let matchingIndex = indexOfOnlyFaceUpCard, matchingIndex != index {
                 if cards[matchingIndex].identifier == cards[index].identifier {
+                    cards[matchingIndex].isMatched = true
                     cards[index].isMatched = true
                 }
                 cards[index].isFaceUp = true

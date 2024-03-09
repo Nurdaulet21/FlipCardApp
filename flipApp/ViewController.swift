@@ -34,9 +34,10 @@ class ViewController: UIViewController {
             let card = game.cards[index]
             if card.isFaceUp {
                 button.setTitle(emojiIdentifier(for: card), for: .normal)
+                button.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
             } else {
                 button.setTitle("", for: .normal)
-                button.backgroundColor = card.isMatched ? UIColor.black : UIColor.blue
+                button.backgroundColor = card.isMatched ? #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0) : UIColor.systemBlue
             }
         }
     }
@@ -52,10 +53,7 @@ class ViewController: UIViewController {
 
         }
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+ 
 
 
 }
